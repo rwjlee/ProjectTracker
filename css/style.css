@@ -1,0 +1,98 @@
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    min-width: 800px;
+}
+
+.parent {
+    display: flex;
+    width: 100%;
+    min-width:800px;
+}
+
+.header {
+    background-color: blue;
+    height: 50px;
+    min-height: 50px;
+}
+
+.banner {
+    font-size: 0.8em;
+    vertical-align: top;
+    width: 300px;
+    flex-shrink: 0;
+    color: white;
+}
+
+.bannericons {
+    font-size: 0.8em;
+    flex-basis: 0 0 100px;
+    color: white;
+}
+
+.bannericons * {
+    margin-left: 10px;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #5555;
+}
+
+.menubar {
+    flex-basis: 0 0 80%;
+    overflow: scroll;
+    font-size: 0.8em;
+}
+
+
+
+.menu h4 {
+    background-color: grey;
+}
+
+.menu * {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.search {
+    font-size: 0.5em;
+}
+
+.content {
+    height: 95vh;
+}
+
+.col2 {
+    flex: 1 1 800px;
+    /* border: 1px dotted blue; */
+    display: flex;
+}
+
+.box {
+    flex: 1 1 200px;
+    /* overflow: scroll; */
+    /* border: 1px solid red; */
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.box h4 {
+    background-color: grey;
+    font: white;
+}
+
+.boxchild {
+    /* border: 1px solid green; */
+    background-color: yellow;
+}
+
+
+.row:nth-of-type(odd) { background-color: grey; }
+.row:nth-of-type(even) { background-color: lightgray; }
+.row:hover { background-color: #555555; }
+
